@@ -5,4 +5,4 @@
 ![](./resource/1.png)
 ![](./resource/2.png)
 ![](./resource/3.png)
-<img src="./resource/1.png" width=256 height=256 />
+<img src="./resource/1.png" width=256 />
