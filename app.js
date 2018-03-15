@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
   },
   globalData: {
-    domain: 'http://127.0.0.1'
+    domain: 'http://59.110.143.62'
   },
 
 })
