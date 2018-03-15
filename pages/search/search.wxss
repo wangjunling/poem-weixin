@@ -1,0 +1,20 @@
+/* pages/search/search.wxss */
+
+.search {
+  background-color: #1aad16;
+}
+
+.search-input {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  width: 94%;
+  font-size: 14px;
+  display: inline-block;
+  height: 35px;
+  margin-bottom:8rpx;
+  margin-left: 16rpx;
+  padding-left: 15rpx;
+}
+.search-placeholder{
+  text-align: center;
+}

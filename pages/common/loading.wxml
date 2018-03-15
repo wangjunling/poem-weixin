@@ -1,0 +1,6 @@
+    <template name="loading">
+    <view>
+      <view class='loadding' wx:if="{{hasMore}}"><icon type='waiting'></icon><text>加载中...</text> </view>
+      <view class='loadding' wx:else><icon type='success'></icon>没有更多内容了</view>
+    </view>
+    </template>

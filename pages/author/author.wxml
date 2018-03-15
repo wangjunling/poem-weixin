@@ -1,0 +1,11 @@
+<view class='container'>
+<view class='author-detail'>
+ <image style='' mode='aspectFit' class='author-img' wx:if='{{author.avatar}}' src='{{author.avatar}}'></image>
+ <view class='author-body'>{{author.profile}}</view>
+ <view>
+  <button type='primary'style='margin-bottom:15rpx;font-size:30rpx;margin-top:28rpx;' bindtap='searchPoem'>查看他的作品</button>
+  <button style='font-size:30rpx;' bindtap='goback' >返回</button>
+</view>
+</view>
+
+</view>

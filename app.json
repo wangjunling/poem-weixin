@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/poem/detail",
+    "pages/poem/list",
+    "pages/author/author",
+    "pages/author/list",
+    "pages/tag/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1AAD16",
+    "navigationBarTitleText": "古诗词",
+    "navigationBarTextStyle":"black"
+  }
+}

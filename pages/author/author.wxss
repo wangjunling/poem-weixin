@@ -1,0 +1,14 @@
+/* pages/author/author.wxss */
+.author-detail{
+  padding: 30rpx;
+  background-color: white;
+}
+.author-body{
+  line-height: 61rpx;
+}
+.author-img{
+  width:203rpx;
+height:281rpx;
+float:left;
+margin:23rpx;
+}

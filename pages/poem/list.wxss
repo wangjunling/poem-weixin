@@ -1,0 +1,34 @@
+/* pages/poem/list.wxss */
+.poem-list{
+background-color: white;
+height:1126rpx;
+}
+.poem-list-item{
+  padding: 0 20rpx;
+height: 62px;
+line-height: 62px;
+border-bottom: 1px solid #e7e7eb;
+}
+.poem-title{
+font-weight: 900;
+height:37px;
+line-height:37px;
+}
+.poem-author{
+  float: right;
+  font-size: 14px;
+  color: #555;
+  height:21px;
+line-height:21px;
+
+}
+
+.index-search{
+  background: #1AAD16;
+}
+.search-btn{
+  border-radius:5px;
+  width: 96%;
+  font-size: 14px;
+  margin-bottom: 15rpx;
+}

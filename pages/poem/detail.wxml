@@ -1,0 +1,10 @@
+<view class='container'>
+<view class='poem-detail' >
+  <view class='poem-title'>{{poem.title}}</view>
+  <view class='poem-author'>{{poem.dynasty}}：{{poem.author}}</view>
+  <view class='poem-body'>
+    <text class='poem-content'>{{poem.content}}</text>
+  </view>
+  <text class='poem-tag'>{{poem.tags}}</text>
+</view>
+</view>

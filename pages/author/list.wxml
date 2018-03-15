@@ -1,0 +1,12 @@
+<import src="../common/head.wxml" />
+<import src="../common/loading.wxml" />
+<view class="container">
+  <template is="head" />
+  <scroll-view scroll-y='true' class='author-list' bindscrolltolower='lower' lower-threshold='30'>
+    <navigator class='author-list-item' wx:for="{{authorList}}" wx:key='{{item.id}}' url='/pages/author/author?id={{item.id}}'>
+      <image mode='scaleToFill' class='author-avatar' src='{{item.avatar}}'></image>
+      <view class='author-name'>{{item.name}}</view>
+    </navigator>
+    <template is="loading" data="{{hasMore}}" />
+  </scroll-view>
+</view>

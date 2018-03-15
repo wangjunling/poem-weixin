@@ -1,0 +1,38 @@
+/**index.wxss**/
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+.card-header{
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+
+}
+.card-content{
+  width: 100%;
+}
+.card-list{
+  display: inline-block;
+  width: 200rpx;
+  margin-right: 30rpx;
+}
+.card-list-item{
+  line-height: 60rpx;
+  display: inline-block;
+  padding: 20rpx;
+}
+.more{
+  color: #1AAD16;
+  font-size: 14px;
+}
+.card-title{
+  border-left:10rpx solid #1AAD16;
+  width: 160rpx;
+  text-align: center;
+  font-weight: 900;
+}

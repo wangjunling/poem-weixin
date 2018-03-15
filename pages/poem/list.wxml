@@ -1,0 +1,13 @@
+<import src="../common/head.wxml"  />
+<import src="../common/loading.wxml" />
+<view class="container">
+<template is="head" data="{{key}}"/>
+   <scroll-view scroll-y='true' class='poem-list' bindscrolltolower='lower' lower-threshold='30'>
+    <navigator class='poem-list-item' wx:for="{{poemList}}" wx:key='{{item.id}}' url='/pages/poem/detail?id={{item.id}}'>
+      <view class='poem-title'>{{item.title}}</view>
+      <text class='poem-author'>{{item.dynasty}}：{{item.author}}</text>
+    </navigator>
+    <template is="loading" data="{{hasMore}}"/>
+  </scroll-view> 
+
+</view>

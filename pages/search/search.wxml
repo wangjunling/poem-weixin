@@ -1,0 +1,3 @@
+<view class='search'>
+ <input class='search-input' bindconfirm='search' placeholder-class='search-placeholder' focus='true' confirm-type='search' placeholder='搜索'></input>
+</view>

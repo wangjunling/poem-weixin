@@ -1,0 +1,11 @@
+<import src="../common/head.wxml" />
+<import src="../common/loading.wxml" />
+<view class="container">
+<template is="head"/>
+  <scroll-view scroll-y='true' style='height:600px;padding:0px;' class='card' bindscrolltolower='lower' lower-threshold='30'>
+    <view class='card-content'>
+        <navigator class='card-list-item' wx:for='{{tagList}}' wx:key='{{item.id}}' url='/pages/poem/list?tagId={{item.id}}'>{{item.name}}</navigator>
+    </view>
+<template is="loading" data="{{hasMore}}" />
+  </scroll-view>
+  </view>

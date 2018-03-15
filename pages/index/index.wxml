@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<import src="../common/head.wxml" />
+<view class="container">
+<template is="head"/>
+  <view class='card'>
+    <view class='card-header'>
+      <text class='card-title'>推荐诗歌</text>
+      <view></view>
+      <navigator class='more' url="/pages/poem/list">查看更多></navigator>
+    </view>
+    <view scroll-x='true' class='card-content'>
+        <navigator class='card-list-item' wx:for="{{poemList}}" wx:key='{{item.id}}'  url='/pages/poem/detail?id={{item.id}}'>{{item.title}}</navigator>
+    </view>
+
+  </view>
+
+  <view class='card'>
+    <view class='card-header'>
+      <text class='card-title'>推荐诗人</text>
+      <view></view>
+      <navigator class='more' url='/pages/author/list'>查看更多></navigator>
+    </view>
+    <view class='card-content'>
+        <navigator class='card-list-item' wx:for="{{authorList}}" wx:key='{{item.id}}' url='/pages/author/author?id={{item.id}}'>{{item.name}}</navigator>
+
+  
+   
+
+    </view>
+
+  </view>
+  <view class='card'>
+    <view class='card-header'>
+      <text class='card-title'>推荐标签</text>
+      <view></view>
+      <navigator class='more' url='/pages/tag/list'>查看更多></navigator>
+    </view>
+    <view class='card-content'>
+        <navigator class='card-list-item' wx:for="{{tagList}}" wx:key='{{item.id}}' url='/pages/poem/list?tagId={{item.id}}'>{{item.name}}</navigator>
+    </view>
+
+  </view>
+</view>

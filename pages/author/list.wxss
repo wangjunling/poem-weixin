@@ -1,0 +1,23 @@
+/* pages/tag/list.wxss */
+.author-avatar{
+  width:100rpx;
+height:110rpx
+}
+.author-list{
+  background-color: white;
+  height:1126rpx;
+}
+.author-list-item{
+  border-bottom: 1px solid #DEE1DC;
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 0;
+  margin: 0 20rpx;
+}
+.author-name{
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+  font-size:27rpx;
+
+}
